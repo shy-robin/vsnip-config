@@ -1,0 +1,150 @@
+{
+  "(ShyRobin)Vue2": {
+    "prefix": "vue2",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "\tname: '${TM_FILENAME_BASE}'",
+      "}",
+      "</script>",
+      "",
+      "<style scoped lang=\"scss\">",
+      "",
+      "</style>",
+      ""
+    ],
+    "description": "快速创建 Vue2 模板。"
+  },
+
+  "(ShyRobin)Vue3": {
+    "prefix": "vue3",
+    "body": [
+      "<template>",
+      "\t",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${1:$TM_FILENAME_BASE}'",
+      "})",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>",
+      ""
+    ],
+    "description": "快速创建 Vue3 模板。"
+  },
+
+  "(ShyRobin)Vue3-setup-ts-less": {
+    "prefix": "vue3-setup-ts-less",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t",
+      "</template>",
+      "",
+      "<style scoped lang=\"less\">",
+      "",
+      "</style>",
+      ""
+    ],
+    "description": "快速创建 Vue3-setup-ts-less 模板。"
+  },
+
+  "(ShyRobin)Vue3-setup-ts": {
+    "prefix": "vue3-setup-ts",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>",
+      ""
+    ],
+    "description": "快速创建 Vue3-setup-ts 模板。"
+  },
+
+  "(ShyRobin)Vue3-setup": {
+    "prefix": "vue3-setup",
+    "body": [
+      "<script setup>",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>",
+      ""
+    ],
+    "description": "快速创建 Vue3-setup 模板。"
+  },
+
+  "(ShyRobin)Vue3-ks": {
+    "prefix": "vue3-ks",
+    "body": [
+      "<template>",
+      "\t",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue';",
+      "",
+      "export default defineComponent({",
+      "\tname: '${1:$TM_FILENAME_BASE}',",
+      "\tsetup() {",
+      "\t\treturn {",
+      "\t\t}",
+      "\t},",
+      "});",
+      "</script>",
+      "",
+      "<style scoped lang=\"less\">",
+      "",
+      "</style>",
+      ""
+    ],
+    "description": "快速创建 Vue3-ks 模板。"
+  },
+
+  "(ShyRobin)Vue3-ks-setup": {
+    "prefix": "vue3-ks-setup",
+    "body": [
+      "<template>",
+      "\t",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<style scoped lang=\"less\">",
+      "",
+      "</style>",
+      ""
+    ],
+    "description": "快速创建 Vue3-ks-setup 模板。"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "FunctionComponent": {
+    "prefix": "fc",
+    "body": [
+      "function ${TM_FILENAME_BASE/(^.)/${1:/upcase}/}($1) {",
+      "\treturn ($2)",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE/(^.)/${1:/upcase}/}"
+    ],
+    "description": "Create function component."
+  },
+  "StatelessFunctionComponent": {
+    "prefix": "sfc",
+    "body": [
+      "const ${TM_FILENAME_BASE/(^.)/${1:/upcase}/} = ($1) => {",
+      "\treturn ($2)",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE/(^.)/${1:/upcase}/}"
+    ],
+    "description": "Create stateless function component(arrow function)."
+  },
+  "EmptyTag": {
+    "prefix": "et",
+    "body": ["<>", "\t$1", "</>"],
+    "description": "Create empty tag."
+  },
+  "UseState": {
+    "prefix": "us",
+    "body": ["const [$1, set${1/(^.)/${1:/upcase}/}] = useState($2)"],
+    "description": "Create useState."
+  }
+}

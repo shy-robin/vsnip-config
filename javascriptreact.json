@@ -21,10 +21,10 @@
     ],
     "description": "Create stateless function component(arrow function)."
   },
-  "EmptyTag": {
-    "prefix": "et",
+  "Fragment": {
+    "prefix": "fm",
     "body": ["<>", "\t$1", "</>"],
-    "description": "Create empty tag."
+    "description": "Create a fragment(empty tag)."
   },
   "UseState": {
     "prefix": "us",

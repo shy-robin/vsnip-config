@@ -55,5 +55,10 @@
     "prefix": ["st", "stag"],
     "body": ["<$1 />"],
     "description": "Create self-closing tag."
+  },
+  "StyledComponents": {
+    "prefix": ["sty", "styled"],
+    "body": ["const $1 = styled.${2:div}`", "\t$3", "`"],
+    "description": "Create styled components"
   }
 }

@@ -45,5 +45,15 @@
     "prefix": ["id", "importdefault"],
     "body": ["import $2 from '${1:module}';"],
     "description": "Create import default statement."
+  },
+  "Tag": {
+    "prefix": ["t", "tag"],
+    "body": ["<$1$3>$2</$1>"],
+    "description": "Create tag."
+  },
+  "SelfClosingTag": {
+    "prefix": ["st", "stag"],
+    "body": ["<$1 />"],
+    "description": "Create self-closing tag."
   }
 }

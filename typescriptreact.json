@@ -35,5 +35,15 @@
     "prefix": "ui",
     "body": ["const [$1, update${1/(^.)/${1:/upcase}/}] = useImmer($2)"],
     "description": "Create useImmer"
+  },
+  "ImportStatement": {
+    "prefix": ["im", "import"],
+    "body": ["import { $2 } from '${1:module}';"],
+    "description": "Create import statement."
+  },
+  "ImportDefaultStatement": {
+    "prefix": ["id", "importdefault"],
+    "body": ["import $2 from '${1:module}';"],
+    "description": "Create import default statement."
   }
 }

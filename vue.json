@@ -159,9 +159,14 @@
     "description": "Create a normal/async arrow function."
   },
   "ImportStatement": {
-    "prefix": "import",
+    "prefix": ["im", "import"],
     "body": ["import { $2 } from '${1:module}';"],
     "description": "Create import statement."
+  },
+  "ImportDefaultStatement": {
+    "prefix": ["id", "importdefault"],
+    "body": ["import $2 from '${1:module}';"],
+    "description": "Create import default statement."
   },
   "Tag": {
     "prefix": ["t", "tag"],

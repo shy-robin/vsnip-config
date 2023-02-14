@@ -60,5 +60,10 @@
     "prefix": ["sty", "styled"],
     "body": ["const $1 = styled.${2:div}`", "\t$3", "`"],
     "description": "Create styled components"
+  },
+  "UseMemo": {
+    "prefix": "um",
+    "body": ["const $1 = useMemo(() => {$2}, [$3])"],
+    "description": "Create useMemo"
   }
 }

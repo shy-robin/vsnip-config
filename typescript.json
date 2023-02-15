@@ -8,5 +8,15 @@
     "prefix": ["afunc"],
     "body": ["const $1 = $3($2) => {", "\t$4", "}", "$5"],
     "description": "Create a normal/async arrow function."
+  },
+  "ImportStatement": {
+    "prefix": ["im", "import"],
+    "body": ["import { $2 } from '${1:module}';"],
+    "description": "Create import statement."
+  },
+  "ImportDefaultStatement": {
+    "prefix": ["id", "importdefault"],
+    "body": ["import $2 from '${1:module}';"],
+    "description": "Create import default statement."
   }
 }

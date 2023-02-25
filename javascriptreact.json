@@ -65,5 +65,10 @@
     "prefix": "um",
     "body": ["const $1 = useMemo(() => {$2}, [$3])"],
     "description": "Create useMemo"
+  },
+  "JsDoc": {
+    "prefix": ["jsdoc"],
+    "body": ["/**", "* ${1}", "*/"],
+    "description": "Create jsdoc."
   }
 }

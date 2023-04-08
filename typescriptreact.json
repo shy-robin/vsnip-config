@@ -68,7 +68,7 @@
   },
   "JsDoc": {
     "prefix": ["jsdoc"],
-    "body": ["/**", "* ${1}", "*/"],
+    "body": ["/**", " * ${1}", " */"],
     "description": "Create jsdoc."
   }
 }

@@ -52,5 +52,10 @@
     "prefix": ["jsdoc"],
     "body": ["/**", " * ${1}", " */"],
     "description": "Create jsdoc."
+  },
+  "Log": {
+    "prefix": ["csl"],
+    "body": ["console.log(${1});"],
+    "description": "Create console.log."
   }
 }
